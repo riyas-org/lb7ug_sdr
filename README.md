@@ -7,6 +7,8 @@ Class 2 (UAC2) stereo sound card carrying I/Q audio, plus a USB CDC serial
 port for Kenwood-style CAT control (compatible with PowerSDR, hamlib, and
 similar software).
 
+<img src="20260822_210307.jpg" alt="Prototype- Only the exciter without bpf & lpf" width="500">
+
 ## Hardware overview
 
 - **RP2040** — main controller, dual-core (see "Core split" below)
