@@ -19,6 +19,16 @@ similar software).
 - Manual PTT button, T/R switching line, and RTS-based PTT are all supported
   and OR-combined (any source can key the rig)
 
+### 📦 Project Hardware Files
+
+* **Schematic (PDF):** [lb7ug_SCH_Schematic1_2026-05-18.pdf](lb7ug_SCH_Schematic1_2026-05-18.pdf)
+* **Interactive BOM (HTML):** [lb7ug_sdr_ibom.html](lb7ug_sdr_ibom.html)
+* **PCB Gerber Files (ZIP):** [lb7ug_SDR_PCB1_2026-05-18.zip](lb7ug_SDR_PCB1_2026-05-18.zip)
+
+⚠️ **IMPORTANT DISCLAIMER / ERRATA**
+Please note that this hardware revision contains known layout errors. The PCB and schematic require manual modifications to function correctly, specifically requiring a **jumper/wire bridge** fix. Proceed with caution if manufacturing or assembling this exact revision without applying these corrections.
+
+
 ## Firmware features
 
 - USB Audio Class 2 stereo I/Q streaming (RX) and stereo audio out (TX)
