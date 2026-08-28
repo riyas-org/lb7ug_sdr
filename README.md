@@ -7,7 +7,7 @@ Class 2 (UAC2) stereo sound card carrying I/Q audio, plus a USB CDC serial
 port for Kenwood-style CAT control (compatible with PowerSDR, hamlib, and
 similar software).
 
-<img src="20260822_210307.jpg" alt="Prototype- Only the exciter without bpf & lpf" width="500">
+<img src="hardware/20260822_210307.jpg" alt="Prototype- Only the exciter without bpf & lpf" width="500">
 
 ## Hardware overview
 
@@ -21,9 +21,9 @@ similar software).
 
 ### 📦 Project Hardware Files
 
-* **Schematic (PDF):** [lb7ug_SCH_Schematic1_2026-05-18.pdf](lb7ug_SCH_Schematic1_2026-05-18.pdf)
-* **Interactive BOM (HTML):** [lb7ug_sdr_ibom.html](lb7ug_sdr_ibom.html)
-* **PCB Gerber Files (ZIP):** [lb7ug_SDR_PCB1_2026-05-18.zip](lb7ug_SDR_PCB1_2026-05-18.zip)
+* **Schematic (PDF):** [lb7ug_SCH_Schematic1_2026-05-18.pdf](hardware/lb7ug_SCH_Schematic1_2026-05-18.pdf)
+* **Interactive BOM (HTML):** [lb7ug_sdr_ibom.html](hardware/lb7ug_sdr_ibom.html)
+* **PCB Gerber Files (ZIP):** [lb7ug_SDR_PCB1_2026-05-18.zip](hardware/lb7ug_SDR_PCB1_2026-05-18.zip)
 
 ⚠️ **IMPORTANT DISCLAIMER / ERRATA**
 Please note that this hardware revision contains known layout errors. The PCB and schematic require manual modifications to function correctly, specifically requiring a **jumper/wire bridge** fix. Proceed with caution if manufacturing or assembling this exact revision without applying these corrections.
