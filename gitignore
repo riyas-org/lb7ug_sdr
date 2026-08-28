@@ -1,0 +1,40 @@
+# --- Pico SDK / CMake build artifacts ---
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+*.uf2
+*.elf
+*.bin
+*.hex
+*.map
+*.dis
+*.o
+*.a
+*.pio.h
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Python (iq_calibration.py) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Personal calibration output ---
+# iq_fir_coeffs.h encodes YOUR board's measured I/Q error curve, not a
+# generic default — uncomment the line below if you'd rather each builder
+# regenerate their own instead of committing one board's calibration data.
+# iq_fir_coeffs.h

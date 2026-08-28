@@ -1,0 +1,62 @@
+LMR-SDR QSD/QSE Transceiver Firmware — Licensing
+=================================================
+
+This project's own code is released under the MIT License below.
+
+IMPORTANT — MIXED LICENSING NOTICE
+-----------------------------------
+`i2s.pio` in this repository is adapted from Daniel Collins'
+`rp2040_i2s_example`, which is licensed under the GNU General Public
+License v3 (GPLv3), not MIT. That file remains under GPLv3 — see the
+header comment inside i2s.pio itself for full attribution.
+
+This matters beyond just crediting the source: including GPLv3-licensed
+code in a project generally means the combined, compiled work (i.e. the
+firmware binary you build and distribute) is subject to GPLv3 terms as a
+whole, regardless of the MIT license on the rest of the source files.
+This is not a formality — if you plan to distribute compiled firmware
+(not just source), you should either:
+
+  1. Treat and distribute the whole project under GPLv3 terms, or
+  2. Replace i2s.pio with an independently written implementation not
+     derived from GPLv3 code, if you want the project to remain
+     MIT-only end to end.
+
+This notice is provided for awareness, not as legal advice — consult
+a lawyer if licensing compliance matters for your distribution plans.
+
+
+MIT License
+===========
+
+Copyright (c) 2020 Jerzy Kasenberg
+Copyright (c) 2022 Angel Molina
+Copyright (c) 2023 Dhiru Kholia
+Copyright (c) 2026 Riyas Vettukattil
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+Third-Party Attribution
+========================
+
+i2s.pio — adapted from Daniel Collins' rp2040_i2s_example, licensed
+under GPLv3. See the header comment in i2s.pio for details. Modifications
+by LB7UG. This file is GPLv3, NOT MIT — see the notice above.
